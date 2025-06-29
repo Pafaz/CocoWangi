@@ -1,0 +1,74 @@
+[
+  {
+    "id": "testimonial-1",
+    "name": "Ahmed Al-Rashid",
+    "company": "Gulf Trading LLC",
+    "country": "UAE",
+    "flag": "🇦🇪",
+    "rating": 5,
+    "review": "CocoWangi has been our trusted partner for premium coconut oil imports. Their quality consistency and professional service make them stand out in the market.",
+    "reviewId": "CocoWangi telah menjadi mitra terpercaya kami untuk impor minyak kelapa premium. Konsistensi kualitas dan layanan profesional mereka membuatnya menonjol di pasar.",
+    "productCategory": "Virgin Coconut Oil",
+    "orderVolume": "50 tons/month"
+  },
+  {
+    "id": "testimonial-2",
+    "name": "Rajesh Patel",
+    "company": "Spice & Oil Industries",
+    "country": "India",
+    "flag": "🇮🇳",
+    "rating": 5,
+    "review": "Excellent quality coconut charcoal briquettes! Our customers love the long burning time and clean burn. Highly recommended for hookah businesses.",
+    "reviewId": "Briket arang kelapa berkualitas excellent! Pelanggan kami menyukai waktu bakar yang lama dan pembakaran yang bersih. Sangat direkomendasikan untuk bisnis hookah.",
+    "productCategory": "Charcoal Briquettes",
+    "orderVolume": "100 tons/quarter"
+  },
+  {
+    "id": "testimonial-3",
+    "name": "Li Wei Chen",
+    "company": "Agricultural Imports Co.",
+    "country": "China",
+    "flag": "🇨🇳",
+    "rating": 5,
+    "review": "Their cocopeat quality is outstanding for our hydroponic operations. Clean, low-salt content, and excellent water retention properties.",
+    "reviewId": "Kualitas cocopeat mereka luar biasa untuk operasi hidroponik kami. Bersih, kandungan garam rendah, dan sifat retensi air yang excellent.",
+    "productCategory": "Cocopeat",
+    "orderVolume": "200 tons/year"
+  },
+  {
+    "id": "testimonial-4",
+    "name": "Maria Santos",
+    "company": "Natural Products Import",
+    "country": "Brazil",
+    "flag": "🇧🇷",
+    "rating": 4,
+    "review": "Professional team with deep knowledge of coconut products. Their logistics support and documentation are always perfect.",
+    "reviewId": "Tim profesional dengan pengetahuan mendalam tentang produk kelapa. Dukungan logistik dan dokumentasi mereka selalu sempurna.",
+    "productCategory": "Coconut Fiber",
+    "orderVolume": "80 tons/year"
+  },
+  {
+    "id": "testimonial-5",
+    "name": "Hassan Mohammed",
+    "company": "Middle East Food Corp",
+    "country": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "rating": 5,
+    "review": "Best copra supplier we've worked with. Consistent quality, competitive pricing, and reliable delivery schedules.",
+    "reviewId": "Pemasok kopra terbaik yang pernah kami ajak bekerja sama. Kualitas konsisten, harga kompetitif, dan jadwal pengiriman yang dapat diandalkan.",
+    "productCategory": "Dried Copra",
+    "orderVolume": "150 tons/quarter"
+  },
+  {
+    "id": "testimonial-6",
+    "name": "John Mitchell",
+    "company": "Organic Foods Australia",
+    "country": "Australia",
+    "flag": "🇦🇺",
+    "rating": 5,
+    "review": "Their organic certifications and sustainable practices align perfectly with our values. Premium quality products every time.",
+    "reviewId": "Sertifikasi organik dan praktik berkelanjutan mereka selaras sempurna dengan nilai-nilai kami. Produk berkualitas premium setiap saat.",
+    "productCategory": "Organic Coconut Oil",
+    "orderVolume": "75 tons/year"
+  }
+]

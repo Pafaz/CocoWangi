@@ -1,0 +1,154 @@
+[
+  {
+    "id": "coconut-oil-virgin",
+    "name": "Virgin Coconut Oil",
+    "nameId": "Minyak Kelapa Murni",
+    "category": "oil",
+    "description": "Cold-pressed virgin coconut oil with natural aroma and high nutritional value",
+    "descriptionId": "Minyak kelapa murni cold-pressed dengan aroma alami dan nilai gizi tinggi",
+    "image": "https://images.pexels.com/photos/4198015/pexels-photo-4198015.jpeg",
+    "specifications": {
+      "moisture": "Max 0.1%",
+      "purity": "99.9%",
+      "packaging": "1L, 5L, 20L containers",
+      "origin": "Java, Indonesia"
+    },
+    "applications": ["Food & Beverage", "Cosmetics", "Health Supplements"],
+    "certificationsHeld": ["Organic", "Halal", "FDA"],
+    "minOrderQuantity": "1 ton",
+    "exportPrice": "$2,800-3,200/ton FOB"
+  },
+  {
+    "id": "coconut-oil-refined",
+    "name": "Refined Coconut Oil",
+    "nameId": "Minyak Kelapa Olahan",
+    "category": "oil",
+    "description": "Refined coconut oil with neutral taste and extended shelf life",
+    "descriptionId": "Minyak kelapa olahan dengan rasa netral dan daya tahan lama",
+    "image": "https://images.pexels.com/photos/5946961/pexels-photo-5946961.jpeg",
+    "specifications": {
+      "moisture": "Max 0.05%",
+      "purity": "99.8%",
+      "packaging": "20L drums, 200L drums",
+      "origin": "Sumatra, Indonesia"
+    },
+    "applications": ["Industrial Food", "Confectionery", "Bakery"],
+    "certificationsHeld": ["ISO 22000", "Halal", "HACCP"],
+    "minOrderQuantity": "5 tons",
+    "exportPrice": "$1,800-2,200/ton FOB"
+  },
+  {
+    "id": "coconut-shell-charcoal",
+    "name": "Coconut Shell Charcoal",
+    "nameId": "Arang Tempurung Kelapa",
+    "category": "charcoal",
+    "description": "High-quality coconut shell charcoal with excellent burning properties",
+    "descriptionId": "Arang tempurung kelapa berkualitas tinggi dengan sifat pembakaran excellent",
+    "image": "https://images.pexels.com/photos/9036017/pexels-photo-9036017.jpeg",
+    "specifications": {
+      "moisture": "Max 8%",
+      "purity": "85-90% carbon",
+      "packaging": "25kg bags, 50kg bags",
+      "origin": "Sulawesi, Indonesia"
+    },
+    "applications": ["BBQ & Grilling", "Industrial Fuel", "Water Filtration"],
+    "certificationsHeld": ["Quality Grade A", "Export Standard"],
+    "minOrderQuantity": "10 tons",
+    "exportPrice": "$450-650/ton FOB"
+  },
+  {
+    "id": "coconut-briquette",
+    "name": "Coconut Charcoal Briquette",
+    "nameId": "Briket Arang Kelapa",
+    "category": "charcoal",
+    "description": "Compressed coconut charcoal briquettes for hookah and BBQ",
+    "descriptionId": "Briket arang kelapa terkompresi untuk hookah dan BBQ",
+    "image": "https://images.pexels.com/photos/8988749/pexels-photo-8988749.jpeg",
+    "specifications": {
+      "moisture": "Max 6%",
+      "purity": "90%+ carbon",
+      "packaging": "10kg boxes, 20kg boxes",
+      "origin": "Java, Indonesia"
+    },
+    "applications": ["Hookah/Shisha", "BBQ", "Restaurant Use"],
+    "certificationsHeld": ["Export Quality", "Food Safe"],
+    "minOrderQuantity": "5 tons",
+    "exportPrice": "$800-1,200/ton FOB"
+  },
+  {
+    "id": "coconut-fiber",
+    "name": "Coconut Coir Fiber",
+    "nameId": "Serat Sabut Kelapa",
+    "category": "fiber",
+    "description": "Natural coconut fiber for agriculture and industrial applications",
+    "descriptionId": "Serat kelapa alami untuk aplikasi pertanian dan industri",
+    "image": "https://images.pexels.com/photos/7207900/pexels-photo-7207900.jpeg",
+    "specifications": {
+      "moisture": "Max 15%",
+      "purity": "Natural fiber",
+      "packaging": "Compressed bales",
+      "origin": "Tamil Nadu, Indonesia"
+    },
+    "applications": ["Horticulture", "Erosion Control", "Mattress Industry"],
+    "certificationsHeld": ["Organic", "Natural"],
+    "minOrderQuantity": "20 tons",
+    "exportPrice": "$150-250/ton FOB"
+  },
+  {
+    "id": "cocopeat",
+    "name": "Cocopeat (Coco Pith)",
+    "nameId": "Cocopeat (Sabut Kelapa Halus)",
+    "category": "fiber",
+    "description": "Premium quality cocopeat for growing medium and soil amendment",
+    "descriptionId": "Cocopeat kualitas premium untuk media tanam dan pembenah tanah",
+    "image": "https://images.pexels.com/photos/6589124/pexels-photo-6589124.jpeg",
+    "specifications": {
+      "moisture": "Max 20%",
+      "purity": "Low salt content",
+      "packaging": "5kg blocks, 650g bricks",
+      "origin": "Sri Lanka, Indonesia"
+    },
+    "applications": ["Hydroponics", "Soil Amendment", "Potting Mix"],
+    "certificationsHeld": ["Organic", "Export Grade"],
+    "minOrderQuantity": "10 tons",
+    "exportPrice": "$120-180/ton FOB"
+  },
+  {
+    "id": "copra",
+    "name": "Dried Copra",
+    "nameId": "Kopra Kering",
+    "category": "copra",
+    "description": "Sun-dried copra with optimal oil content for processing",
+    "descriptionId": "Kopra kering dengan kandungan minyak optimal untuk pengolahan",
+    "image": "https://images.pexels.com/photos/5661659/pexels-photo-5661659.jpeg",
+    "specifications": {
+      "moisture": "Max 6%",
+      "purity": "65-68% oil content",
+      "packaging": "50kg jute bags",
+      "origin": "North Sulawesi, Indonesia"
+    },
+    "applications": ["Oil Processing", "Animal Feed", "Industrial Use"],
+    "certificationsHeld": ["Export Grade", "Quality A"],
+    "minOrderQuantity": "25 tons",
+    "exportPrice": "$800-1,000/ton FOB"
+  },
+  {
+    "id": "coconut-shell-powder",
+    "name": "Coconut Shell Powder",
+    "nameId": "Tepung Tempurung Kelapa",
+    "category": "shell",
+    "description": "Fine coconut shell powder for various industrial applications",
+    "descriptionId": "Tepung tempurung kelapa halus untuk berbagai aplikasi industri",
+    "image": "https://images.pexels.com/photos/4198016/pexels-photo-4198016.jpeg",
+    "specifications": {
+      "moisture": "Max 12%",
+      "purity": "Natural shell powder",
+      "packaging": "25kg bags",
+      "origin": "Central Java, Indonesia"
+    },
+    "applications": ["Abrasive Industry", "Filtration", "Composite Materials"],
+    "certificationsHeld": ["Industrial Grade", "Export Quality"],
+    "minOrderQuantity": "15 tons",
+    "exportPrice": "$200-300/ton FOB"
+  }
+]

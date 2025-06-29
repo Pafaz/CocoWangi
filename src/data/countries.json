@@ -1,0 +1,72 @@
+[
+  {
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "flag": "🇦🇪",
+    "exportVolume": "2,500 tons/year",
+    "mainProducts": ["Virgin Coconut Oil", "Refined Coconut Oil", "Charcoal Briquettes"]
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "flag": "🇮🇳",
+    "exportVolume": "3,200 tons/year",
+    "mainProducts": ["Charcoal Briquettes", "Coconut Shell Charcoal", "Cocopeat"]
+  },
+  {
+    "name": "China",
+    "code": "CN",
+    "flag": "🇨🇳",
+    "exportVolume": "1,800 tons/year",
+    "mainProducts": ["Cocopeat", "Coconut Fiber", "Copra"]
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "flag": "🇸🇦",
+    "exportVolume": "1,200 tons/year",
+    "mainProducts": ["Dried Copra", "Virgin Coconut Oil", "Coconut Shell Charcoal"]
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "flag": "🇦🇺",
+    "exportVolume": "800 tons/year",
+    "mainProducts": ["Organic Coconut Oil", "Cocopeat", "Coconut Fiber"]
+  },
+  {
+    "name": "South Korea",
+    "code": "KR",
+    "flag": "🇰🇷",
+    "exportVolume": "650 tons/year",
+    "mainProducts": ["Virgin Coconut Oil", "Charcoal Briquettes"]
+  },
+  {
+    "name": "Japan",
+    "code": "JP",
+    "flag": "🇯🇵",
+    "exportVolume": "500 tons/year",
+    "mainProducts": ["Premium Coconut Oil", "Organic Products"]
+  },
+  {
+    "name": "Malaysia",
+    "code": "MY",
+    "flag": "🇲🇾",
+    "exportVolume": "450 tons/year",
+    "mainProducts": ["Coconut Shell Charcoal", "Coconut Shell Powder"]
+  },
+  {
+    "name": "Singapore",
+    "code": "SG",
+    "flag": "🇸🇬",
+    "exportVolume": "300 tons/year",
+    "mainProducts": ["Virgin Coconut Oil", "Refined Coconut Oil"]
+  },
+  {
+    "name": "Philippines",
+    "code": "PH",
+    "flag": "🇵🇭",
+    "exportVolume": "280 tons/year",
+    "mainProducts": ["Coconut Fiber", "Cocopeat"]
+  }
+]
