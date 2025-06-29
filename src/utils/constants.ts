@@ -6,8 +6,8 @@ export const COMPANY_INFO = {
   description: 'Leading exporter of high-quality coconut-derived products from Indonesia to international markets.',
   descriptionId: 'Eksportir terdepan produk turunan kelapa berkualitas tinggi dari Indonesia ke pasar internasional.',
   address: 'Sukadi, Labanasem, Kabat, Banyuwangi Regency, East Java 68461, Indonesia',
-  phone: '+6283129290922',
-  whatsapp: '+6283129290922',
+  phone: '+62 831-3275-0120',
+  whatsapp: '+62 831-3275-0120',
   email: '',
   website: '',
   established: '2024',
@@ -17,7 +17,7 @@ export const COMPANY_INFO = {
 };
 
 export const SOCIAL_LINKS = {
-  whatsapp: 'https://wa.me/6283129290922',
+  whatsapp: 'https://wa.me/6283132750120',
   instagram: 'https://instagram.com/cocosing_',
 };
 
