@@ -11,11 +11,11 @@ interface SEOHeadProps {
 }
 
 export const SEOHead: React.FC<SEOHeadProps> = ({
-  title = '',
-  description = '',
+  title = 'cocowangi',
+  description = 'exportir kelapa premium indonesia ke pasar internasional',
   keywords = 'coconut export, coconut oil, coconut charcoal, coconut fiber, copra, indonesia export, coconut products',
   image = '/og-image.jpg',
-  url = ''
+  url = 'cocowangi.netlify.app',
 }) => {
   const { t } = useLanguage();
   

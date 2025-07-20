@@ -344,7 +344,7 @@ export const About: React.FC = () => {
 
       {/* Certifications */}
       <Section background="gray" padding="lg">
-        <div className="text-center mb-8">
+        <div className="text-center mb-8 ">
           <motion.h2 
             className="text-3xl font-bold text-gray-900 dark:text-white mb-4"
             {...fadeInUp}
@@ -360,7 +360,7 @@ export const About: React.FC = () => {
         </div>
 
         <motion.div 
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4"
+          className="grid grid-cols-2 lg:grid-cols-4 gap-4"
           variants={staggerContainer}
           initial="initial"
           whileInView="animate"

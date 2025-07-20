@@ -5,11 +5,11 @@ export const COMPANY_INFO = {
   taglineId: 'Produk Kelapa Premium Indonesia untuk Pasar Global',
   description: 'Leading exporter of high-quality coconut-derived products from Indonesia to international markets.',
   descriptionId: 'Eksportir terdepan produk turunan kelapa berkualitas tinggi dari Indonesia ke pasar internasional.',
-  address: 'Sukadi, Labanasem, Kabat, Banyuwangi Regency, East Java 68461, Indonesia',
+  address: 'Labanasem, Kabat, Banyuwangi Regency, East Java 68461, Indonesia',
   phone: '+62 831-3275-0120',
   whatsapp: '+62 831-3275-0120',
-  email: '',
-  website: '',
+  email: 'cocowangiidn@gmail.com',
+  website: 'cocowangi.netlify.app',
   established: '2024',
   employees: '100+',
   countries: '25+',
@@ -18,16 +18,14 @@ export const COMPANY_INFO = {
 
 export const SOCIAL_LINKS = {
   whatsapp: 'https://wa.me/6283132750120',
-  instagram: 'https://instagram.com/cocosing_',
+  instagram: 'https://instagram.com/cocowangi.id',
 };
 
 export const CERTIFICATIONS = [
-  'ISO 22000:2018',
-  'HACCP Certified',
-  'Halal Certified',
-  'Organic Certified',
-  'FDA Approved',
-  'BPOM Registered',
+  'PEB NPE',
+  'Phytosanitary',
+  'COO',
+  'COA',
 ];
 
 export const NAVIGATION_ITEMS = [
