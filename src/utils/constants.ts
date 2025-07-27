@@ -32,16 +32,16 @@ export const NAVIGATION_ITEMS = [
   { key: 'home', href: '/', labelEn: 'Home', labelId: 'Beranda' },
   { key: 'about', href: '/about', labelEn: 'About Us', labelId: 'Tentang Kami' },
   { key: 'products', href: '/products', labelEn: 'Products', labelId: 'Produk' },
-  { key: 'sustainability', href: '/sustainability', labelEn: 'Sustainability', labelId: 'Keberlanjutan' },
-  { key: 'track-record', href: '/track-record', labelEn: 'Track Record', labelId: 'Rekam Jejak' },
+  // { key: 'sustainability', href: '/sustainability', labelEn: 'Sustainability', labelId: 'Keberlanjutan' },
+  // { key: 'track-record', href: '/track-record', labelEn: 'Track Record', labelId: 'Rekam Jejak' },
   { key: 'contact', href: '/contact', labelEn: 'Contact', labelId: 'Kontak' },
 ];
 
 export const PRODUCT_CATEGORIES = [
   { key: 'all', labelEn: 'All Products', labelId: 'Semua Produk' },
-  { key: 'oil', labelEn: 'Coconut Oil', labelId: 'Minyak Kelapa' },
-  { key: 'charcoal', labelEn: 'Charcoal & Briquette', labelId: 'Arang & Briket' },
+  // { key: 'oil', labelEn: 'Coconut Oil', labelId: 'Minyak Kelapa' },
+  // { key: 'charcoal', labelEn: 'Charcoal & Briquette', labelId: 'Arang & Briket' },
   { key: 'fiber', labelEn: 'Fiber & Husk', labelId: 'Serat & Sabut' },
-  { key: 'copra', labelEn: 'Copra', labelId: 'Kopra' },
-  { key: 'shell', labelEn: 'Shell Products', labelId: 'Produk Tempurung' },
+  // { key: 'copra', labelEn: 'Copra', labelId: 'Kopra' },
+  // { key: 'shell', labelEn: 'Shell Products', labelId: 'Produk Tempurung' },
 ];

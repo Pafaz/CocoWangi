@@ -41,19 +41,16 @@ export const About: React.FC = () => {
     {
       name: 'Novia Gita Kharisma',
       position: t('CEO & Founder', 'CEO & Pendiri'),
-      experience: '2+',
       image: '/images/gita.png'
     },
     {
       name: 'Paundra Afif Zamroni',
       position: t('Export Director', 'Direktur Ekspor'),
-      experience: '2+',
       image: 'https://paundra-afif-zamroni.vercel.app/images/about.jpg'
     },
     {
       name: 'Dimas Firdianto',
       position: t('Operations Director', 'Direktur Operasi'),
-      experience: '8+',
       image: 'https://media.licdn.com/dms/image/v2/D5603AQEG7vg2TSSrCw/profile-displayphoto-crop_800_800/B56ZeaUfcwH8AI-/0/1750640753395?e=1756944000&v=beta&t=ZSiRbksaBhFN3O8QbTqmbx2GWaJ-Jc55fmqffyAm4SQ'
     }
   ];
@@ -240,7 +237,7 @@ export const About: React.FC = () => {
       </Section>
 
       {/* Timeline */}
-      <Section background="gradient" padding="xl">
+      {/* <Section background="gradient" padding="xl">
         <div className="text-center mb-12">
           <motion.h2 
             className="text-4xl font-bold text-gray-900 dark:text-white mb-4"
@@ -286,7 +283,7 @@ export const About: React.FC = () => {
             </motion.div>
           ))}
         </div>
-      </Section>
+      </Section> */}
 
       {/* Leadership Team */}
       <Section background="white" padding="xl">
@@ -324,9 +321,9 @@ export const About: React.FC = () => {
                   alt={member.name}
                   className="w-32 h-32 mx-auto rounded-full object-cover shadow-lg"
                 />
-                <div className="absolute -bottom-2 right-20 w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm font-bold">
+                {/* <div className="absolute -bottom-2 right-20 w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center text-white text-sm font-bold">
                   {member.experience}
-                </div>
+                </div> */}
               </div>
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                 {member.name}
@@ -334,9 +331,9 @@ export const About: React.FC = () => {
               <p className="text-gray-600 dark:text-gray-300 mb-1">
                 {member.position}
               </p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              {/* <p className="text-sm text-gray-500 dark:text-gray-400">
                 {member.experience} {t('years experience', 'tahun pengalaman')}
-              </p>
+              </p> */}
             </motion.div>
           ))}
         </motion.div>

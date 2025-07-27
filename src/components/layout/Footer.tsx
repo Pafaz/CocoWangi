@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
       {/* Main Footer Content */}
       <Container>
         <div className="py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Company Info */}
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
@@ -90,16 +90,6 @@ export const Footer: React.FC = () => {
                   whileTap={{ scale: 0.9 }}
                 >
                   <Instagram className="w-5 h-5" />
-                </motion.a>
-                <motion.a
-                  href={SOCIAL_LINKS.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors duration-200"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                >
-                  <Linkedin className="w-5 h-5" />
                 </motion.a>
                 <WhatsAppButton size="sm" />
               </div>
@@ -150,7 +140,7 @@ export const Footer: React.FC = () => {
             </div>
 
             {/* Company Stats */}
-            <div>
+            {/* <div>
               <h4 className="text-lg font-semibold mb-6">
                 {t('Company Stats', 'Statistik Perusahaan')}
               </h4>
@@ -165,7 +155,7 @@ export const Footer: React.FC = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Certifications */}

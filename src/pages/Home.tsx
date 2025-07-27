@@ -38,32 +38,32 @@ export const Home: React.FC = () => {
     window.location.href = `/contact?product=${encodeURIComponent(product.name)}`;
   };
 
-  const companyStats = [
-    {
-      icon: TrendingUp,
-      value: COMPANY_INFO.annualCapacity,
-      label: t('Annual Capacity', 'Kapasitas Tahunan'),
-      description: t('Production capacity per year', 'Kapasitas produksi per tahun')
-    },
-    {
-      icon: Globe,
-      value: COMPANY_INFO.countries,
-      label: t('Export Countries', 'Negara Ekspor'),
-      description: t('Countries we export to', 'Negara yang kami ekspor')
-    },
-    {
-      icon: Users,
-      value: COMPANY_INFO.employees,
-      label: t('Expert Team', 'Tim Ahli'),
-      description: t('Skilled employees', 'Karyawan terampil')
-    },
-    {
-      icon: Award,
-      value: '6+',
-      label: t('Certifications', 'Sertifikasi'),
-      description: t('International standards', 'Standar internasional')
-    }
-  ];
+  // const companyStats = [
+  //   {
+  //     icon: TrendingUp,
+  //     value: COMPANY_INFO.annualCapacity,
+  //     label: t('Annual Capacity', 'Kapasitas Tahunan'),
+  //     description: t('Production capacity per year', 'Kapasitas produksi per tahun')
+  //   },
+  //   {
+  //     icon: Globe,
+  //     value: COMPANY_INFO.countries,
+  //     label: t('Export Countries', 'Negara Ekspor'),
+  //     description: t('Countries we export to', 'Negara yang kami ekspor')
+  //   },
+  //   {
+  //     icon: Users,
+  //     value: COMPANY_INFO.employees,
+  //     label: t('Expert Team', 'Tim Ahli'),
+  //     description: t('Skilled employees', 'Karyawan terampil')
+  //   },
+  //   {
+  //     icon: Award,
+  //     value: '6+',
+  //     label: t('Certifications', 'Sertifikasi'),
+  //     description: t('International standards', 'Standar internasional')
+  //   }
+  // ];
 
   return (
     <>
@@ -140,7 +140,7 @@ export const Home: React.FC = () => {
       </Section>
 
       {/* Company Stats */}
-      <Section background="white" padding="lg">
+      {/* <Section background="white" padding="lg">
         <motion.div
           ref={statsRef}
           className="grid grid-cols-2 lg:grid-cols-4 gap-8"
@@ -169,7 +169,7 @@ export const Home: React.FC = () => {
             </motion.div>
           ))}
         </motion.div>
-      </Section>
+      </Section> */}
 
       {/* Featured Products */}
       <Section background="gray" padding="xl">
