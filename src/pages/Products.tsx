@@ -12,6 +12,7 @@ import { Product } from '../types';
 
 // Import data
 import productsData from '../data/products.json';
+import { useNavigate } from 'react-router-dom';
 
 export const Products: React.FC = () => {
   const { t } = useLanguage();
@@ -21,6 +22,7 @@ export const Products: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [isFilterOpen, setIsFilterOpen] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setProducts(productsData);
@@ -49,22 +51,27 @@ export const Products: React.FC = () => {
   }, [products, selectedCategory, searchTerm]);
 
   const handleViewProduct = (product: Product) => {
-    // In a real app, this would navigate to a detailed product page
-    console.log('View product:', product);
+    alert(t(
+      'This feature is currently unavailable, use the Download Catalog button.',
+      'Fitur ini saat ini tidak tersedia, gunakan tombol Unduh Katalog.'
+    ))
   };
 
   const handleRequestQuote = (product: Product) => {
-    window.location.href = `/contact?product=${encodeURIComponent(product.name)}`;
+    navigate(`/contact?product=${encodeURIComponent(product.name)}`);
   };
 
   const handleDownloadCatalog = () => {
     // In a real app, this would trigger a PDF download
-    alert(t('Catalog download will be available soon!', 'Unduhan katalog akan segera tersedia!'));
+    const link = document.createElement('a');
+    link.href = '/assets/cocowangi-catalog.pdf';
+    link.download = 'cocowangi-catalog.pdf'; // Nama file saat diunduh
+    link.click();
   };
 
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title={t('Products', 'Produk')}
         description={t(
           'Explore our comprehensive range of premium coconut products including virgin coconut oil, charcoal briquettes, coconut fiber, and more.',
@@ -76,13 +83,13 @@ export const Products: React.FC = () => {
       {/* Hero Section */}
       <Section background="gradient" padding="xl">
         <div className="text-center">
-          <motion.h1 
+          <motion.h1
             className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6"
             {...fadeInUp}
           >
             {t('Our Products', 'Produk Kami')}
           </motion.h1>
-          <motion.p 
+          <motion.p
             className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8"
             {...fadeInUp}
           >
@@ -91,7 +98,7 @@ export const Products: React.FC = () => {
               'Temukan rangkaian lengkap produk kelapa premium kami, masing-masing diproses dengan hati-hati untuk memenuhi standar kualitas internasional.'
             )}
           </motion.p>
-          
+
           <motion.div {...fadeInUp}>
             <Button
               variant="secondary"
@@ -126,11 +133,10 @@ export const Products: React.FC = () => {
               <button
                 key={category.key}
                 onClick={() => setSelectedCategory(category.key)}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
-                  selectedCategory === category.key
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${selectedCategory === category.key
                     ? 'bg-primary-600 text-white'
                     : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                }`}
+                  }`}
               >
                 {t(category.labelEn, category.labelId)}
               </button>
@@ -153,21 +159,19 @@ export const Products: React.FC = () => {
           <div className="flex items-center space-x-2 bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
             <button
               onClick={() => setViewMode('grid')}
-              className={`p-2 rounded-md transition-colors duration-200 ${
-                viewMode === 'grid'
+              className={`p-2 rounded-md transition-colors duration-200 ${viewMode === 'grid'
                   ? 'bg-white dark:bg-gray-600 text-primary-600 dark:text-primary-400 shadow-sm'
                   : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'
-              }`}
+                }`}
             >
               <Grid className="w-5 h-5" />
             </button>
             <button
               onClick={() => setViewMode('list')}
-              className={`p-2 rounded-md transition-colors duration-200 ${
-                viewMode === 'list'
+              className={`p-2 rounded-md transition-colors duration-200 ${viewMode === 'list'
                   ? 'bg-white dark:bg-gray-600 text-primary-600 dark:text-primary-400 shadow-sm'
                   : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'
-              }`}
+                }`}
             >
               <List className="w-5 h-5" />
             </button>
@@ -192,11 +196,10 @@ export const Products: React.FC = () => {
                       setSelectedCategory(category.key);
                       setIsFilterOpen(false);
                     }}
-                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
-                      selectedCategory === category.key
+                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${selectedCategory === category.key
                         ? 'bg-primary-600 text-white'
                         : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600'
-                    }`}
+                      }`}
                   >
                     {t(category.labelEn, category.labelId)}
                   </button>
@@ -284,13 +287,13 @@ export const Products: React.FC = () => {
       {/* CTA Section */}
       <Section background="primary" padding="xl">
         <div className="text-center text-white">
-          <motion.h2 
+          <motion.h2
             className="text-4xl font-bold mb-6"
             {...fadeInUp}
           >
             {t('Need Custom Products?', 'Butuh Produk Khusus?')}
           </motion.h2>
-          <motion.p 
+          <motion.p
             className="text-xl mb-8 max-w-2xl mx-auto opacity-90"
             {...fadeInUp}
           >
@@ -299,14 +302,14 @@ export const Products: React.FC = () => {
               'Kami dapat menyesuaikan produk kami untuk memenuhi kebutuhan spesifik Anda. Hubungi kami untuk pesanan khusus dan harga grosir.'
             )}
           </motion.p>
-          <motion.div 
+          <motion.div
             className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6"
             {...fadeInUp}
           >
             <Button
               variant="secondary"
               size="xl"
-              onClick={() => window.location.href = '/contact'}
+              onClick={() => navigate('/contact')}
               className="min-w-[200px]"
             >
               {t('Contact Us', 'Hubungi Kami')}

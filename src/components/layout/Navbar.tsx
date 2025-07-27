@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { Container } from './Container';
@@ -15,6 +15,7 @@ export const Navbar: React.FC = () => {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
   const { t } = useLanguage();
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -96,7 +97,7 @@ export const Navbar: React.FC = () => {
             <Button
               variant="primary"
               size="sm"
-              onClick={() => window.location.href = '/contact'}
+              onClick={() => navigate('/contact')}
             >
               {t('Get Quote', 'Minta Penawaran')}
             </Button>
@@ -160,7 +161,7 @@ export const Navbar: React.FC = () => {
                     fullWidth
                     onClick={() => {
                       setIsOpen(false);
-                      window.location.href = '/contact';
+                      navigate('/contact');
                     }}
                   >
                     {t('Get Quote', 'Minta Penawaran')}

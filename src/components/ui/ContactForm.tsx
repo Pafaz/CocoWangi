@@ -41,6 +41,10 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit, initialProdu
         quantity: '',
         message: ''
       });
+      alert(t(
+        'Coming soon.',
+        'Segera hadir.'
+      ));
     } catch (error) {
       console.error('Form submission error:', error);
     } finally {

@@ -100,14 +100,14 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         </div>
 
         {/* Price */}
-        <div className="mb-4">
+        {/* <div className="mb-4">
           <p className="text-lg font-bold text-primary-600 dark:text-primary-400">
             {product.exportPrice}
           </p>
           <p className="text-xs text-gray-500 dark:text-gray-400">
             {t('Min. Order:', 'Min. Pesan:')} {product.minOrderQuantity}
           </p>
-        </div>
+        </div> */}
 
         {/* Applications */}
         <div className="mb-6">

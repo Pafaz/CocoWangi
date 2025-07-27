@@ -11,7 +11,7 @@ import { useScrollAnimation } from '../hooks/useScrollReveal';
 import { COMPANY_INFO, CERTIFICATIONS } from '../utils/constants';
 import { fadeInUp, slideInFromBottom, staggerContainer } from '../utils/animations';
 import { Product, Testimonial } from '../types';
-
+import { useNavigate } from 'react-router-dom';
 // Import data
 import productsData from '../data/products.json';
 import testimonialsData from '../data/testimonials.json';
@@ -21,8 +21,8 @@ export const Home: React.FC = () => {
   const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
   const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
   const { ref: heroRef, isInView: heroInView } = useScrollAnimation();
-  const { ref: statsRef, isInView: statsInView } = useScrollAnimation();
-
+  // const { ref: statsRef, isInView: statsInView } = useScrollAnimation();
+  const navigate = useNavigate();
   useEffect(() => {
     // Get featured products (first 4)
     setFeaturedProducts(productsData.slice(0, 4));
@@ -31,12 +31,12 @@ export const Home: React.FC = () => {
   }, []);
 
   const handleViewProduct = (product: Product) => {
-    window.location.href = `/products?id=${product.id}`;
-  };
+  navigate(`/products?id=${product.id}`);
+};
 
-  const handleRequestQuote = (product: Product) => {
-    window.location.href = `/contact?product=${encodeURIComponent(product.name)}`;
-  };
+const handleRequestQuote = (product: Product) => {
+  navigate(`/contact?product=${encodeURIComponent(product.name)}`); 
+};
 
   // const companyStats = [
   //   {
@@ -119,7 +119,7 @@ export const Home: React.FC = () => {
                 variant="primary"
                 size="xl"
                 icon={ArrowRight}
-                onClick={() => window.location.href = '/products'}
+                onClick={() =>  navigate('/products')}
                 className="min-w-[200px]"
               >
                 {t('View Products', 'Lihat Produk')}
@@ -129,7 +129,7 @@ export const Home: React.FC = () => {
                 variant="outline"
                 size="xl"
                 icon={Play}
-                onClick={() => window.location.href = '/about'}
+                onClick={() =>   navigate('/about')}
                 className="min-w-[200px]"
               >
                 {t('Our Story', 'Cerita Kami')}
@@ -207,7 +207,7 @@ export const Home: React.FC = () => {
             variant="primary"
             size="lg"
             icon={ArrowRight}
-            onClick={() => window.location.href = '/products'}
+            onClick={() => navigate('/products')}
           >
             {t('View All Products', 'Lihat Semua Produk')}
           </Button>
@@ -288,7 +288,7 @@ export const Home: React.FC = () => {
                 variant="primary"
                 size="lg"
                 icon={ArrowRight}
-                onClick={() => window.location.href = '/about'}
+                onClick={() =>   '/about'}
               >
                 {t('Learn More About Us', 'Pelajari Lebih Lanjut Tentang Kami')}
               </Button>
@@ -362,7 +362,7 @@ export const Home: React.FC = () => {
           ))}
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <Button
             variant="outline"
             size="lg"
@@ -370,7 +370,7 @@ export const Home: React.FC = () => {
           >
             {t('View All Testimonials', 'Lihat Semua Testimoni')}
           </Button>
-        </div>
+        </div> */}
       </Section>
 
       {/* CTA Section */}
@@ -398,7 +398,7 @@ export const Home: React.FC = () => {
             <Button
               variant="secondary"
               size="xl"
-              onClick={() => window.location.href = '/contact'}
+              onClick={() => navigate('/contact')}
               className="min-w-[200px]"
             >
               {t('Get Quote Now', 'Dapatkan Penawaran Sekarang')}
@@ -406,7 +406,7 @@ export const Home: React.FC = () => {
             <Button
               variant="outline"
               size="xl"
-              onClick={() => window.location.href = '/products'}
+              onClick={() => navigate('/products')}
               className="min-w-[200px] border-white text-white hover:bg-white hover:text-primary-600"
             >
               {t('Browse Products', 'Jelajahi Produk')}
