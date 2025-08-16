@@ -30,7 +30,7 @@ export const CERTIFICATIONS = [
 
 export const NAVIGATION_ITEMS = [
   { key: 'home', href: '/', labelEn: 'Home', labelId: 'Beranda' },
-  // { key: 'about', href: '/about', labelEn: 'About Us', labelId: 'Tentang Kami' },
+ { key: 'about', href: '/about', labelEn: 'About Us', labelId: 'Tentang Kami' },
   { key: 'products', href: '/products', labelEn: 'Products', labelId: 'Produk' },
   // { key: 'sustainability', href: '/sustainability', labelEn: 'Sustainability', labelId: 'Keberlanjutan' },
   // { key: 'track-record', href: '/track-record', labelEn: 'Track Record', labelId: 'Rekam Jejak' },
