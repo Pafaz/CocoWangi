@@ -125,7 +125,7 @@ const handleRequestQuote = (product: Product) => {
                 {t('View Products', 'Lihat Produk')}
               </Button>
               
-              <Button
+              {/* <Button
                 variant="outline"
                 size="xl"
                 icon={Play}
@@ -133,7 +133,7 @@ const handleRequestQuote = (product: Product) => {
                 className="min-w-[200px]"
               >
                 {t('Our Story', 'Cerita Kami')}
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
         </div>
@@ -241,25 +241,8 @@ const handleRequestQuote = (product: Product) => {
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
                     {t(
-                      'All our products meet international quality standards with comprehensive certifications including ISO, HACCP, and organic certifications.',
-                      'Semua produk kami memenuhi standar kualitas internasional dengan sertifikasi komprehensif termasuk ISO, HACCP, dan sertifikasi organik.'
-                    )}
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="w-8 h-8 bg-secondary-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <Globe className="w-4 h-4 text-white" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                    {t('Global Reach', 'Jangkauan Global')}
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    {t(
-                      'We export to over 25 countries worldwide with established logistics networks and reliable delivery systems.',
-                      'Kami mengekspor ke lebih dari 25 negara di seluruh dunia dengan jaringan logistik yang mapan dan sistem pengiriman yang andal.'
+                      'All our products meet international quality standards with comprehensive certifications including COO, COA, PEB NPE, and Phytosanitary.',
+                      'Semua produk kami memenuhi standar kualitas internasional dengan sertifikasi komprehensif termasuk COO, COA, PEB NPE, dan Phytosanitary.'
                     )}
                   </p>
                 </div>
@@ -275,8 +258,8 @@ const handleRequestQuote = (product: Product) => {
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
                     {t(
-                      'Our experienced team of 150+ professionals ensures consistent quality and excellent customer service throughout the export process.',
-                      'Tim berpengalaman kami yang terdiri dari 150+ profesional memastikan kualitas yang konsisten dan layanan pelanggan yang excellent sepanjang proses ekspor.'
+                      'Our experienced team professionals ensures consistent quality and excellent customer service throughout the export process.',
+                      'Tim berpengalaman kami yang profesional memastikan kualitas yang konsisten dan layanan pelanggan yang excellent sepanjang proses ekspor.'
                     )}
                   </p>
                 </div>
@@ -337,7 +320,7 @@ const handleRequestQuote = (product: Product) => {
       </Section>
 
       {/* Customer Testimonials */}
-      <Section background="white" padding="xl">
+      {/* <Section background="white" padding="xl">
         <div className="text-center mb-12">
           <motion.h2 
             className="text-4xl font-bold text-gray-900 dark:text-white mb-4"
@@ -362,7 +345,7 @@ const handleRequestQuote = (product: Product) => {
           ))}
         </div>
 
-        {/* <div className="text-center">
+        <div className="text-center">
           <Button
             variant="outline"
             size="lg"
@@ -370,8 +353,8 @@ const handleRequestQuote = (product: Product) => {
           >
             {t('View All Testimonials', 'Lihat Semua Testimoni')}
           </Button>
-        </div> */}
-      </Section>
+        </div>
+      </Section> */}
 
       {/* CTA Section */}
       <Section background="primary" padding="xl">

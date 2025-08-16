@@ -143,10 +143,9 @@ export const Contact: React.FC = () => {
         </div>
       </Section>
 
-      {/* Main Contact Section */}
-      <Section background="gray" padding="xl">
+      {/* <Section background="gray" padding="xl">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Contact Form */}
+
           <div className="lg:col-span-2">
             <motion.div 
               className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8"
@@ -168,9 +167,9 @@ export const Contact: React.FC = () => {
             </motion.div>
           </div>
 
-          {/* Sidebar Information */}
+
           <div className="space-y-8">
-            {/* Business Hours */}
+
             <motion.div 
               className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6"
               {...fadeInUp}
@@ -195,7 +194,7 @@ export const Contact: React.FC = () => {
               </div>
             </motion.div>
 
-            {/* Quick Contact */}
+
             <motion.div 
               className="bg-primary-600 rounded-2xl shadow-xl p-6 text-white"
               {...fadeInUp}
@@ -214,7 +213,7 @@ export const Contact: React.FC = () => {
               </div>
             </motion.div>
 
-            {/* Response Time */}
+
             <motion.div 
               className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6"
               {...fadeInUp}
@@ -254,7 +253,7 @@ export const Contact: React.FC = () => {
             </motion.div>
           </div>
         </div>
-      </Section>
+      </Section> */}
 
       {/* Map Section */}
       <Section background="white" padding="lg">
@@ -269,7 +268,7 @@ export const Contact: React.FC = () => {
             className="text-lg text-gray-600 dark:text-gray-300"
             {...fadeInUp}
           >
-            {t('Visit our headquarters in Jakarta, Indonesia', 'Kunjungi kantor pusat kami di Jakarta, Indonesia')}
+            {t('Visit our headquarters in Banyuwangi, Indonesia', 'Kunjungi kantor pusat kami di Banyuwangi, Indonesia')}
           </motion.p>
         </div>
 
